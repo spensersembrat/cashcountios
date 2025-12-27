@@ -34,9 +34,11 @@ struct SettlementView: View {
                             
                             VStack {
                                 Text("$\(session.totalPot)")
-                                    .font(.largeTitle)
+                                    .font(.title)
                                     .fontWeight(.bold)
                                     .monospacedDigit()
+                                    .lineLimit(1)
+                                    .minimumScaleFactor(0.7)
                                 Text("Total Pot")
                                     .font(.caption)
                                     .foregroundStyle(.secondary)

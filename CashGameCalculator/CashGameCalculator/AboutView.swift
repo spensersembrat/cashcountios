@@ -21,7 +21,7 @@ struct AboutView: View {
                             .frame(width: 80, height: 80)
                             .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
                         
-                        Text("ChipCalc")
+                        Text("SettleUpCash")
                             .font(.title)
                             .fontWeight(.bold)
                         
@@ -37,10 +37,10 @@ struct AboutView: View {
                     
                     // What is this app?
                     VStack(alignment: .leading, spacing: 12) {
-                        Label("What is ChipCalc?", systemImage: "questionmark.circle")
+                        Label("What is SettleUpCash?", systemImage: "questionmark.circle")
                             .font(.headline)
                         
-                        Text("ChipCalc helps you settle up after a poker cash game. Enter each player's buy-in and cash-out amounts, and the app calculates the optimal way to transfer money between players.")
+                        Text("SettleUpCash helps you settle up after a poker cash game. Enter each player's buy-in and cash-out amounts, and the app calculates the optimal way to transfer money between players.")
                             .foregroundStyle(.secondary)
                     }
                     
